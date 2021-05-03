@@ -1,12 +1,22 @@
-body{
-    background-color: lightblue;
-
+body::before {
+  content: "";
+  position: fixed;
+  background: url("../img/secret1.jpg") center no-repeat;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  z-index: -1;
 }
+
 
 h1 {
     display: flex;
     justify-content: center;
     margin-top: 40px;
+    color: #BC1010;
+    font-size: 40px;
 }
 
 .form {
@@ -21,6 +31,6 @@ h1 {
     text-align: center;
     font-size: 13px;
     color: #fff;
-    margin-top: 50em;
+    margin-top: 48em;
 }
 
