@@ -1,0 +1,26 @@
+body{
+    background-color: lightblue;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+    margin-top: 50em;
+}
+
